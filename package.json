@@ -1,14 +1,18 @@
 {
   "name": "todolistapi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "codementor RESTful API example",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+  "repository": "https://github.com/petershank/toDoListAPI",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
