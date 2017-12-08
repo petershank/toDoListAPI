@@ -4,7 +4,8 @@
   "description": "codementor RESTful API example",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "",
   "repository": "https://github.com/petershank/toDoListAPI",
@@ -13,6 +14,7 @@
     "nodemon": "^1.12.5"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
   }
 }
